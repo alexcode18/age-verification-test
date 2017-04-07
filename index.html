@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wyne Vineyard Verify</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="form-container">
+		<h1>Wyne Vineyard</h1>
+		<h2>Before Entering the site,<span class="mobile-break"></span> Please Enter your Age</h2>
+		<form id="birth-form">
+			<span class="mobile-break"></span>
+			<p>Day:</p>
+			<select name="day"  id="day">
+			</select>
+			<span class="mobile-break"></span>
+			<p>Month:</p>
+			<select name="month"  id="month">
+				<option value="1" id="january" data-days="31">January</option>
+		        <option value="2" id="february" data-days="28">February</option>
+		        <option value="3" id="march" data-days="31">March</option>
+		        <option value="4" id="april" data-days="30">April</option>
+		        <option value="5" id="may" data-days="31">May</option>
+		        <option value="6" id="june" data-days="30">June</option>
+		        <option value="7" id="july" data-days="31">July</option>
+		        <option value="8" id="august" data-days="31">August</option>
+		        <option value="9" id="september" data-days="30">September</option>
+		        <option value="10" id="october" data-days="31">October</option>
+		        <option value="11" id="november" data-days="30">November</option>
+		        <option value="12" id="december" data-days="31">December</option>
+			</select>
+			<span class="mobile-break"></span>
+			<p>Year:</p>
+			<select name="year" id="year">
+				<option value="1920">1920</option>
+			</select>
+			<input id="submit-btn" type="button" value="Submit" onclick="formCheckAdvanced(21)">
+		</form>
+	</div>
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</html>
